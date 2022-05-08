@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<h1 class="nav-item">Weather Dashboard</h1>
+	</header>
+
+	<div style="padding: 20px;">
+		<div class="flex"> 
+
+			<dib class="sidebar">
+				<h3>Search for City:</h3>
+				<center>
+					<form >
+						<input class="search-input" id="field-input" type="text" placeholder="Search" style="width:95%">
+						<button class="search-btn" id="search-city" type="submit" title="Search City" >SEARCH</button>		
+					</form>
+				</center>
+				<ul class="list-group">
+				</ul>
+			</dib>
+
+			<div class="right">
+				<section style="border:solid 2px;">
+					<div >
+						<div id="city-summary">
+							<h2>City: <span id="name_c"></span></h2>
+							<p >Temperature: <span id="temp_c"></span></p>
+							<p>Wind Speed: <span id="wind_c"></span></p>
+							<p >Humidity: <span id="humi_c"></span></p>
+							<p>UV Index: <span id="uvi_c" class="button-green"></span></p>
+						</div>
+					</div>
+				</section>
+
+				<div class="row">
+					<h2 >5 Day Forecast</h2>
+				</div>
+
+				<div class="flex" id="forecast-area">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

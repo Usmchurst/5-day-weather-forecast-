@@ -1,0 +1,73 @@
+body{
+	    font-family: sans-serif;
+}
+header{
+	text-align: center;
+	font-size: 18px;
+	color: white;background-color: #444;
+	padding: 20px;
+	    background-image: linear-gradient(45deg, #130a88, transparent);
+}
+.sidebar{
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+.right{
+	width: 74%;
+	float: left;
+	padding: 15px;
+}
+.search-input,.search-btn{
+	width: 100%;
+	border-radius: 10px;
+	padding: 8px;
+}
+.search-btn{
+	margin-top: 5px;
+	background-color: #73acf2;
+    color: white;
+    border: none;
+
+}
+.list-group{
+	padding: 0;
+	margin: 0;
+}
+.history-btn{
+	border: solid 2px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ccca;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button-green{
+	background-color: green;
+	color: white;
+	padding: 8px;
+	border-radius: 6px;
+}
+#city-summary{
+	padding: 20px 30px;
+}
+#city-summary p{
+	margin-top: 10px;
+}
+.flex{
+	display: flex;
+}
+
+.blue-box{
+	background-color: #335;
+    padding: 10px;
+    color: white;
+    margin-right: 25px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.upimg{
+	position: absolute;
+    margin-left: 80px;
+}
